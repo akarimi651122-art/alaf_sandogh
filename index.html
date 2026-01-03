@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صندوق قرض‌الحسنه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>صندوق قرض‌الحسنه</h1>
+
+    <section id="add-member">
+        <h2>اضافه کردن مشتری</h2>
+        <input type="text" id="name" placeholder="نام مشتری">
+        <input type="number" id="capital" placeholder="سرمایه اولیه">
+        <input type="number" id="deposit" placeholder="میزان آورده">
+        <input type="number" id="score" placeholder="امتیاز وام">
+        <button onclick="addMember()">اضافه کردن</button>
+    </section>
+
+    <section id="members-list">
+        <h2>لیست مشتریان</h2>
+        <table id="table-members" border="1">
+            <thead>
+                <tr>
+                    <th>نام</th>
+                    <th>سرمایه</th>
+                    <th>آورده</th>
+                    <th>امتیاز وام</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
